@@ -7,7 +7,10 @@ const toolbar = () => (
     <header className={classes.Toolbar}>
         <div>Menu</div>
         <Logo/>
+        <nav>
         <NavigationItems/>
+        </nav>
+        
     </header>
 );
 
